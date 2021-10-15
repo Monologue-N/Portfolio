@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Yeinydd
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("fontawesome-free/css/fontawesome-all.min.css");
 @import url("framework.css");
@@ -161,8 +152,15 @@ File: Layout CSS
 #footer input{display:block; width:100%; padding:8px;}
 #footer button{padding:8px 18px 10px; text-transform:uppercase; font-weight:400; cursor:pointer;}
 
+/*#footer .latestimg{}*/
+/*#footer .latestimg > li{display:inline-block; float:left; width:30%; margin:0 0 5% 5%;}*/
+/*#footer .latestimg > li:nth-last-child(-n+3){margin-bottom:0;}!* Removes bottom margin from the last three items - margin is restored in the media queries when items stack *!*/
+/*#footer .latestimg > li:nth-child(3n+1){margin-left:0; clear:left;}!* Removes the need to add class="first" *!*/
+/*#footer .latestimg > li img{width:100%;}!* Force the image to resize to take the full space - may have to be changed for tablets, depends on personal preference *!*/
+/*#footer .latestimg > li a.imgover{display:block;}*/
+
 #footer .latestimg{}
-#footer .latestimg > li{display:inline-block; float:left; width:30%; margin:0 0 5% 5%;}
+#footer .latestimg > li{display:inline-block; float:left; width:70%; margin:0 0 5% 5%;}
 #footer .latestimg > li:nth-last-child(-n+3){margin-bottom:0;}/* Removes bottom margin from the last three items - margin is restored in the media queries when items stack */
 #footer .latestimg > li:nth-child(3n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
 #footer .latestimg > li img{width:100%;}/* Force the image to resize to take the full space - may have to be changed for tablets, depends on personal preference */
@@ -294,6 +292,8 @@ td{border-width:0 1px;}
 .faicon-linkedin:hover{background-color:#0E76A8;}
 .faicon-twitter:hover{background-color:#00ACEE;}
 .faicon-vk:hover{background-color:#4E658E;}
+.faicon-bilibili:hover{background-color:#EA4C89;}
+.faicon-github:hover{background-color:#6cc644;}
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -322,6 +322,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 
 .imgover:hover::before{background:rgba(130,157,162,.5);/* #829DA2 */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
+
+.profile:hover::before{background:rgba(130,157,162,.5);/* #829DA2 */}
+.profile, .profile:hover::after{color:#FFFFFF;}
 
 
 /* Rows */

@@ -25,8 +25,11 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 .circle{border-radius:50%; background-clip:padding-box;}
 .top_space{margin:0; padding:50px; list-style: none}
 .profile{width: 100px; height: auto; border-radius: 15px; border-color:#ffffff; box-shadow:0 0 20px #ffffff;}
+.project-intro{height: 55px}
 
-.btn{display:inline-block; padding:8px 18px 10px; margin:8px; text-transform:uppercase; border:1px solid;}
+.btn{ display:inline-block; padding:8px 18px 10px; margin:8px; text-transform:uppercase; border:1px solid;}
+.link_btn{width: 100px; height: 50px; padding:8px 18px 10px; margin:15px; text-transform:uppercase; border:1px solid;}
+
 
 .clear, .group{display:block;}
 .clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}

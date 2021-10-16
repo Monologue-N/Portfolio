@@ -320,6 +320,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 .btn, .btn.inverse:hover{color:#474747; background-color:#DBE5E7; border-color:#829DA2;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
+.link_btn, .link_btn.inverse:hover{color:#474747; background-color:#DBE5E7; border-color:#829DA2;}
+.link_btn:hover, .link_btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+
 .imgover:hover::before{background:rgba(130,157,162,.5);/* #829DA2 */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
 

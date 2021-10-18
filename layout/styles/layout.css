@@ -23,7 +23,8 @@
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:180px 0;}
+/*#pageintro{padding:180px 0;}*/
+#pageintro{padding:180px 0 0 0;}
 
 #pageintro article{display:block; max-width:60%; margin:0 auto; text-align:center;}
 #pageintro .heading{margin-bottom:20px; font-size:4rem;}
@@ -294,6 +295,9 @@ td{border-width:0 1px;}
 .faicon-vk:hover{background-color:#4E658E;}
 .faicon-bilibili:hover{background-color:#EA4C89;}
 .faicon-github:hover{background-color:#6cc644;}
+.faicon-github2:hover{background-color:#ffffff; margin: 20px}
+.faicon-instagram:hover{background-color:rebeccapurple;}
+
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
